@@ -1,9 +1,9 @@
 ```mermaid
     flowchart TD;
-    A(start) --float--> B[/masukkan ukuran m/];
-    B --> C[cm = m * 100];
-    C --> D[inci = m * 100 / 2.54];
-    D --> E[/Tampilkan nilai hasil cm/];
-    E --> F[/Tampilkan nilai hasil inci/];
-    F --> G(finish);
+    A(Start) --> B[/Masukkan ukuran meter/];
+    B --> C[cm = ukuran meter X 100];
+    B --> D[inci = ukuran meter X 100 / 2.54];
+    C --> E[Menampilkan ukuran dalam cm];
+    D --> F[Menampilkan ukuran dalam inci];
+    E & F --> G(End);
 ```
